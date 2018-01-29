@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.ImgOriginal = new Emgu.CV.UI.ImageBox();
             this.Start = new System.Windows.Forms.Button();
             this.imgResultado = new Emgu.CV.UI.ImageBox();
@@ -1541,8 +1542,9 @@
             this.Controls.Add(this.groupBox8);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.groupBox9);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Turig-IA-IHC: Detector de circulos v1 - 20180129";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ImgOriginal)).EndInit();
