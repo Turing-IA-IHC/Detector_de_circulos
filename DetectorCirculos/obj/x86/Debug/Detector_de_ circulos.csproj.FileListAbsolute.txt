@@ -1,0 +1,36 @@
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\BallTracker\bin\x86\Debug\concrt140.dll
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\BallTracker\bin\x86\Debug\cvextern.dll
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\BallTracker\bin\x86\Debug\msvcp140.dll
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\BallTracker\bin\x86\Debug\opencv_ffmpeg330.dll
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\BallTracker\bin\x86\Debug\vcruntime140.dll
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\BallTracker\bin\x86\Debug\BallTracker.exe.config
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\BallTracker\bin\x86\Debug\BallTracker.exe
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\BallTracker\bin\x86\Debug\BallTracker.pdb
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\BallTracker\bin\x86\Debug\Microsoft.VisualStudio.DebuggerVisualizers.dll
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\BallTracker\bin\x86\Debug\Emgu.CV.UI.xml
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\BallTracker\bin\x86\Debug\Emgu.CV.UI.GL.xml
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\BallTracker\bin\x86\Debug\Emgu.CV.World.xml
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\BallTracker\obj\x86\Debug\Detector_de_ circulos.csprojResolveAssemblyReference.cache
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\BallTracker\obj\x86\Debug\BallTracker.exe.config
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\BallTracker\obj\x86\Debug\BallTracker.Form1.resources
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\BallTracker\obj\x86\Debug\BallTracker.Properties.Resources.resources
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\BallTracker\obj\x86\Debug\Detector_de_ circulos.csproj.GenerateResource.Cache
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\BallTracker\obj\x86\Debug\Detector_de_ circulos.csproj.CoreCompileInputs.cache
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\BallTracker\obj\x86\Debug\BallTracker.exe
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\BallTracker\obj\x86\Debug\BallTracker.pdb
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\Detector_de_ circulos\bin\x86\Debug\concrt140.dll
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\Detector_de_ circulos\bin\x86\Debug\cvextern.dll
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\Detector_de_ circulos\bin\x86\Debug\msvcp140.dll
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\Detector_de_ circulos\bin\x86\Debug\opencv_ffmpeg330.dll
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\Detector_de_ circulos\bin\x86\Debug\vcruntime140.dll
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\Detector_de_ circulos\bin\x86\Debug\DetectorCirculos.exe.config
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\Detector_de_ circulos\bin\x86\Debug\DetectorCirculos.exe
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\Detector_de_ circulos\bin\x86\Debug\DetectorCirculos.pdb
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\Detector_de_ circulos\bin\x86\Debug\Microsoft.VisualStudio.DebuggerVisualizers.dll
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\Detector_de_ circulos\obj\x86\Debug\DetectorCirculos.exe.config
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\Detector_de_ circulos\obj\x86\Debug\BallTracker.Form1.resources
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\Detector_de_ circulos\obj\x86\Debug\DetectorCirculos.Properties.Resources.resources
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\Detector_de_ circulos\obj\x86\Debug\Detector_de_ circulos.csproj.GenerateResource.Cache
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\Detector_de_ circulos\obj\x86\Debug\Detector_de_ circulos.csproj.CoreCompileInputs.cache
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\Detector_de_ circulos\obj\x86\Debug\DetectorCirculos.exe
+C:\Users\herna\OneDrive\Desktop\Circulos-20171229\BallTracker\Detector_de_ circulos\obj\x86\Debug\DetectorCirculos.pdb
