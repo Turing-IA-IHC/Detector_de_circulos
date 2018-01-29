@@ -179,6 +179,8 @@
     <Content Include="opencv_ffmpeg330.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\turing_dentro.jpg" />
+    <None Include="Resources\EscudoUdec.png" />
     <Content Include="turing_dentro.ico" />
     <Content Include="vcruntime140.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

@@ -30,11 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.ImgOriginal = new Emgu.CV.UI.ImageBox();
             this.Start = new System.Windows.Forms.Button();
-            this.imgResultado = new Emgu.CV.UI.ImageBox();
             this.txtResultados = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.ImgOriginal = new Emgu.CV.UI.ImageBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.imgHSV = new Emgu.CV.UI.ImageBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -48,6 +47,7 @@
             this.cmbGrises = new System.Windows.Forms.ComboBox();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.splitter1 = new System.Windows.Forms.Splitter();
+            this.imgResultado = new Emgu.CV.UI.ImageBox();
             this.imgResultadoSolo = new Emgu.CV.UI.ImageBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.groupBox20 = new System.Windows.Forms.GroupBox();
@@ -134,9 +134,19 @@
             this.ofdFuenteVideo = new System.Windows.Forms.OpenFileDialog();
             this.splitter3 = new System.Windows.Forms.Splitter();
             this.fbdFuenteFolder = new System.Windows.Forms.FolderBrowserDialog();
-            ((System.ComponentModel.ISupportInitialize)(this.ImgOriginal)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgResultado)).BeginInit();
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
+            this.groupBox23 = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.linkMail = new System.Windows.Forms.LinkLabel();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgOriginal)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgHSV)).BeginInit();
             this.groupBox3.SuspendLayout();
@@ -148,6 +158,7 @@
             this.groupBox6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgGrises)).BeginInit();
             this.groupBox7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgResultado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgResultadoSolo)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.groupBox20.SuspendLayout();
@@ -190,17 +201,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericBrillo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericContrast)).BeginInit();
             this.groupBox22.SuspendLayout();
+            this.flowLayoutPanel3.SuspendLayout();
+            this.groupBox23.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // ImgOriginal
-            // 
-            this.ImgOriginal.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ImgOriginal.Location = new System.Drawing.Point(3, 16);
-            this.ImgOriginal.Name = "ImgOriginal";
-            this.ImgOriginal.Size = new System.Drawing.Size(244, 231);
-            this.ImgOriginal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.ImgOriginal.TabIndex = 2;
-            this.ImgOriginal.TabStop = false;
             // 
             // Start
             // 
@@ -212,16 +217,6 @@
             this.Start.Text = "Pause";
             this.Start.UseVisualStyleBackColor = true;
             this.Start.Click += new System.EventHandler(this.Start_Click);
-            // 
-            // imgResultado
-            // 
-            this.imgResultado.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.imgResultado.Location = new System.Drawing.Point(3, 16);
-            this.imgResultado.Name = "imgResultado";
-            this.imgResultado.Size = new System.Drawing.Size(406, 0);
-            this.imgResultado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imgResultado.TabIndex = 2;
-            this.imgResultado.TabStop = false;
             // 
             // txtResultados
             // 
@@ -244,6 +239,16 @@
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Original:";
+            // 
+            // ImgOriginal
+            // 
+            this.ImgOriginal.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ImgOriginal.Location = new System.Drawing.Point(3, 16);
+            this.ImgOriginal.Name = "ImgOriginal";
+            this.ImgOriginal.Size = new System.Drawing.Size(244, 231);
+            this.ImgOriginal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ImgOriginal.TabIndex = 2;
+            this.ImgOriginal.TabStop = false;
             // 
             // groupBox2
             // 
@@ -383,6 +388,16 @@
             this.splitter1.Size = new System.Drawing.Size(5, 0);
             this.splitter1.TabIndex = 4;
             this.splitter1.TabStop = false;
+            // 
+            // imgResultado
+            // 
+            this.imgResultado.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.imgResultado.Location = new System.Drawing.Point(3, 16);
+            this.imgResultado.Name = "imgResultado";
+            this.imgResultado.Size = new System.Drawing.Size(406, 0);
+            this.imgResultado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgResultado.TabIndex = 2;
+            this.imgResultado.TabStop = false;
             // 
             // imgResultadoSolo
             // 
@@ -533,6 +548,7 @@
             // 
             // groupBox9
             // 
+            this.groupBox9.Controls.Add(this.flowLayoutPanel3);
             this.groupBox9.Controls.Add(this.flowLayoutPanel2);
             this.groupBox9.Dock = System.Windows.Forms.DockStyle.Right;
             this.groupBox9.Location = new System.Drawing.Point(772, 0);
@@ -1230,11 +1246,6 @@
             // 
             // numRetraso
             // 
-            this.numRetraso.Increment = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
             this.numRetraso.Location = new System.Drawing.Point(72, 19);
             this.numRetraso.Maximum = new decimal(new int[] {
             10000,
@@ -1531,6 +1542,121 @@
             this.splitter3.TabIndex = 18;
             this.splitter3.TabStop = false;
             // 
+            // flowLayoutPanel3
+            // 
+            this.flowLayoutPanel3.AutoScroll = true;
+            this.flowLayoutPanel3.Controls.Add(this.groupBox23);
+            this.flowLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(3, 363);
+            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(510, 237);
+            this.flowLayoutPanel3.TabIndex = 10;
+            // 
+            // groupBox23
+            // 
+            this.groupBox23.Controls.Add(this.label32);
+            this.groupBox23.Controls.Add(this.label31);
+            this.groupBox23.Controls.Add(this.linkMail);
+            this.groupBox23.Controls.Add(this.label30);
+            this.groupBox23.Controls.Add(this.pictureBox2);
+            this.groupBox23.Controls.Add(this.pictureBox1);
+            this.groupBox23.Controls.Add(this.label29);
+            this.groupBox23.Controls.Add(this.label28);
+            this.groupBox23.Controls.Add(this.label27);
+            this.groupBox23.Location = new System.Drawing.Point(3, 3);
+            this.groupBox23.Name = "groupBox23";
+            this.groupBox23.Size = new System.Drawing.Size(448, 225);
+            this.groupBox23.TabIndex = 1;
+            this.groupBox23.TabStop = false;
+            this.groupBox23.Text = "Nosotros";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::DetectorCirculos.Properties.Resources.turing_dentro;
+            this.pictureBox1.InitialImage = null;
+            this.pictureBox1.Location = new System.Drawing.Point(27, 93);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(98, 74);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::DetectorCirculos.Properties.Resources.EscudoUdec;
+            this.pictureBox2.InitialImage = null;
+            this.pictureBox2.Location = new System.Drawing.Point(334, 93);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(98, 74);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(197, 59);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(71, 13);
+            this.label27.TabIndex = 0;
+            this.label27.Text = "Turing IA IHC";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(170, 93);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(125, 13);
+            this.label28.TabIndex = 1;
+            this.label28.Text = "Gabriel Rojas Albarracín ";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(173, 110);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(118, 13);
+            this.label29.TabIndex = 2;
+            this.label29.Text = "Hernán Murcia Jiménez";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(142, 155);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(32, 13);
+            this.label30.TabIndex = 5;
+            this.label30.Text = "Mail: ";
+            // 
+            // linkMail
+            // 
+            this.linkMail.AutoSize = true;
+            this.linkMail.Location = new System.Drawing.Point(177, 154);
+            this.linkMail.Name = "linkMail";
+            this.linkMail.Size = new System.Drawing.Size(119, 13);
+            this.linkMail.TabIndex = 7;
+            this.linkMail.TabStop = true;
+            this.linkMail.Text = "turing.ia.ihc@gmail.com";
+            this.linkMail.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkMail_LinkClicked);
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(158, 76);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(149, 13);
+            this.label31.TabIndex = 8;
+            this.label31.Text = "Universidad de Cundinamarca";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(217, 125);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(31, 13);
+            this.label32.TabIndex = 9;
+            this.label32.Text = "2018";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1547,9 +1673,8 @@
             this.Text = "Turig-IA-IHC: Detector de circulos v1 - 20180129";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.ImgOriginal)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgResultado)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ImgOriginal)).EndInit();
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.imgHSV)).EndInit();
             this.groupBox3.ResumeLayout(false);
@@ -1561,6 +1686,7 @@
             this.groupBox6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.imgGrises)).EndInit();
             this.groupBox7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.imgResultado)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgResultadoSolo)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.groupBox20.ResumeLayout(false);
@@ -1615,6 +1741,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericContrast)).EndInit();
             this.groupBox22.ResumeLayout(false);
             this.groupBox22.PerformLayout();
+            this.flowLayoutPanel3.ResumeLayout(false);
+            this.groupBox23.ResumeLayout(false);
+            this.groupBox23.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1725,6 +1856,17 @@
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
+        private System.Windows.Forms.GroupBox groupBox23;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.LinkLabel linkMail;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label27;
     }
 }
 

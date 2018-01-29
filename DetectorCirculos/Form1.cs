@@ -513,5 +513,11 @@ namespace BallTracker
 
 
         }
+
+        private void linkMail_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            linkMail.LinkVisited = true;
+            System.Diagnostics.Process.Start("mailto:turing.ia.ihc@gmail.com");
+        }
     }
 }
